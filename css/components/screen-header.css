@@ -27,3 +27,13 @@
 	left: 98px;
 	bottom: 17px;
 }
+
+.screen-header__cog-xl {
+	position: absolute;
+	background-color: tomato;
+	border-radius: 50%;
+	width: 5px;
+	height: 5px;
+	left: 148px;
+	bottom: 17px;
+}

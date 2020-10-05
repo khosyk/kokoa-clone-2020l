@@ -24,6 +24,7 @@
 .user-component__subtitle {
 	margin-top: 5px;
 	color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
 }
 
 .user-component__avatar--xl {
@@ -60,4 +61,15 @@
 .user-component__time {
 	margin-bottom: 10px;
 	display: block;
+}
+
+.user-component .far {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.user-component__text .fas {
+	width: 13px;
+	height: 13px;
+	color: tomato;
+	display: inline-block;
 }

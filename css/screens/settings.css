@@ -1,0 +1,25 @@
+.settings__setting {
+	padding: 20px 0;
+	font-size: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.settings-list i {
+	font-size: 22px;
+}
+
+.settings__setting span {
+	display: inline-block;
+	position: absolute;
+	left: 65px;
+}
+
+.settings__setting-column:nth-child(2) {
+	opacity: 0.5;
+}
+
+.settings__setting:not(:last-child) {
+	border-bottom: solid 0.1px rgba(0, 0, 0, 0.03);
+}

@@ -4,7 +4,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding: 5px 3px;
+	padding: 5px 1px;
 }
 
 .status-bar__column {
@@ -24,6 +24,7 @@
 .status-bar__column:last-child {
 	display: flex;
 	justify-content: flex-end;
+	padding-right: 2px;
 }
 
 .status-bar__column .fa-battery-full {

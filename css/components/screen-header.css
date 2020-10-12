@@ -15,7 +15,7 @@
 }
 
 .screen-header__icons {
-	position: relative;
+	display: flex;
 }
 
 .screen-header__cog {
@@ -24,16 +24,19 @@
 	border-radius: 50%;
 	width: 5px;
 	height: 5px;
-	left: 98px;
-	bottom: 17px;
+	right: 23px;
+	top: 52px;
 }
 
-.screen-header__cog-xl {
-	position: absolute;
-	background-color: tomato;
-	border-radius: 50%;
-	width: 5px;
-	height: 5px;
-	left: 148px;
-	bottom: 17px;
+@keyframes cogAnimation {
+	from {
+		transform: none;
+	}
+	to {
+		transform: rotatez(360deg);
+	}
+}
+
+.screen-header__icons .fa-cog:hover {
+	animation: cogAnimation 1s Linear infinite;
 }
